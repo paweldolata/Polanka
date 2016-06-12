@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Polanka</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcomeText">Mapa Budynku Polanki</string>
+    <string name="studies">Wydział EiT</string>
+    <string name="welcomeButton">Zapraszamy</string>
+    <string name="title_activity_search">Wyszukaj pokój/wykładowcę</string>
+    <string name="searchButton">Filtruj</string>
+
+    <string-array name="filters">
+        <item>Szukaj po piętrze</item>
+        <item>Szukaj po katedrze</item>
+        <item>Szukaj po numerze pokoju</item>
+        <item>Szukaj po nazwisku wykładowcy</item>
+    </string-array>
+
+    <string-array name="floors">
+        <item>Parter</item>
+        <item>I piętro</item>
+        <item>II piętro</item>
+    </string-array>
+
+    <string-array name="chairs">
+        <item>Katedra RK</item>
+        <item>Katedra MIEPU</item>
+        <item>Katedra ST</item>
+        <item>Katedra SK</item>
+    </string-array>
+
+    <string name="title_activity_filtering">Wyszukaj po...</string>
+    <string name="presentResults">Prezentuj wyniki</string>
+    <string name="back">Powrót</string>
+    <string name="searchDescription">Wybierz sposób, w jaki będziesz wyszukiwał wykładowców/pokoje w budynku Wydziału Elektroniki i Telekomunikacji na ul. Polanka.</string>
+    <string name="title_activity_lecturer_info">Opis wykładowcy</string>
+    <string name="title_activity_lecturer_list">Lista wykładowców</string>
+    <string name="filter">Filtruj</string>
+    <string name="moreFromChair">Inne osoby z tej katedry</string>
+    <string name="moreFromFloor">Inne osoby z tego piętra</string>
+    <string name="moreFromRoom">Inne osoby z tego pokoju</string>
+</resources>

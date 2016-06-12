@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="et.put.poznan.pl.polanka.LecturerInfoActivity"
+    android:background="#DDDDFF">
+
+    <TextView android:text=""
+        android:id="@+id/lecturer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <TextView android:text=""
+        android:id="@+id/lecturerRoomNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lecturer"/>
+    <TextView android:text=""
+        android:id="@+id/lecturerChair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lecturerRoomNumber" />
+    <TextView android:text=""
+        android:id="@+id/lecturerFloor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lecturerChair" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:onClick="goBack"
+        android:id="@+id/goBackInfo"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/moreFromChair"
+        android:text="@string/moreFromChair"
+        android:onClick="moreFromChair"
+        android:layout_above="@+id/goBackInfo" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/moreFromRoom"
+        android:layout_above="@id/moreFromChair"
+        android:onClick="moreFromRoom"
+        android:text="@string/moreFromRoom" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/moreFromFloor"
+        android:layout_above="@id/moreFromRoom"
+        android:onClick="moreFromFloor"
+        android:text="@string/moreFromFloor" />
+</RelativeLayout>
